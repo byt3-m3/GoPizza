@@ -1,0 +1,11 @@
+### Send POST request with json body
+POST http://127.0.0.1:8080/v1/customer
+Content-Type: application/json
+
+{
+  "Name": "Test",
+  "StartingBalance": 15
+}
+
+###
+GET http://127.0.0.1:8080/v1/customer?id=8a78f071-17ad-4af2-aeb8-9b16939ce9aa

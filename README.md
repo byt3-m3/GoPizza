@@ -5,6 +5,7 @@ GoPizza is an example APP that I use for implementing new technologies I'd like 
   - Is Entity
   - Order Pizza
   - Pick Up 
+  - CheckBalance
 - Employee
   - Is Entity
   - Can be hired or fired 
@@ -16,8 +17,14 @@ GoPizza is an example APP that I use for implementing new technologies I'd like 
       - Can Deliver Pizza
     - PizzaMaker
       - Can Make Pizza
-- Shop
+- Pizza Store
   - Can take order 
   - Can hire/fire Employees
   - Store Pizza
 
+## API 
+
+### Endpoints
+  - Orders: Handles all orders for a target store 
+  - Customer: handles all CRUD information for customers
+  - Store: Handles all store related operations
